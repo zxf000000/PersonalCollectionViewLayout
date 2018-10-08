@@ -1,0 +1,20 @@
+PODS:
+  - DXFPSLabel (0.1.0)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - DXFPSLabel
+  - YYText
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DXFPSLabel
+    - YYText
+
+SPEC CHECKSUMS:
+  DXFPSLabel: a45eaeab2709b954998c7926c7334d7ef098fb00
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 0433e3c60384bee7556256d9f404d1dfdce4e8e1
+
+COCOAPODS: 1.5.3

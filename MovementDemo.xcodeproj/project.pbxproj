@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271E2C0932AE4D4744EF8258 /* Pods_MovementDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2400FF6711C031FAA8D874 /* Pods_MovementDemo.framework */; };
+		B72B08CC216AE534001ED9F1 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B72B08C8216AE534001ED9F1 /* YYWeakProxy.m */; };
+		B72B08CD216AE534001ED9F1 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B72B08CA216AE534001ED9F1 /* YYFPSLabel.m */; };
 		B78240F72169A2050061685A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78240F62169A2050061685A /* AppDelegate.swift */; };
 		B78240F92169A2050061685A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78240F82169A2050061685A /* ViewController.swift */; };
 		B78240FC2169A2050061685A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78240FA2169A2050061685A /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		B78241012169A2080061685A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78240FF2169A2080061685A /* LaunchScreen.storyboard */; };
 		B782410C2169A2080061685A /* MovementDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782410B2169A2080061685A /* MovementDemoTests.swift */; };
 		B78241172169A2080061685A /* MovementDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78241162169A2080061685A /* MovementDemoUITests.swift */; };
+		B78241252169A65E0061685A /* DemoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78241242169A65E0061685A /* DemoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A2400FF6711C031FAA8D874 /* Pods_MovementDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovementDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B2A53F594391BCA84F0515 /* Pods-MovementDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovementDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovementDemo/Pods-MovementDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B72B08C8216AE534001ED9F1 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		B72B08C9216AE534001ED9F1 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		B72B08CA216AE534001ED9F1 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		B72B08CB216AE534001ED9F1 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		B72B08D1216AE59E001ED9F1 /* MovementDemo-Bridging-Header..h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovementDemo-Bridging-Header..h"; sourceTree = "<group>"; };
 		B78240F32169A2050061685A /* MovementDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovementDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78240F62169A2050061685A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B78240F82169A2050061685A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,8 @@
 		B78241122169A2080061685A /* MovementDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovementDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78241162169A2080061685A /* MovementDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementDemoUITests.swift; sourceTree = "<group>"; };
 		B78241182169A2080061685A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78241242169A65E0061685A /* DemoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLayout.swift; sourceTree = "<group>"; };
+		F0CCBE15E1881D3E8633EC81 /* Pods-MovementDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovementDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovementDemo/Pods-MovementDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271E2C0932AE4D4744EF8258 /* Pods_MovementDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90FAB09092F30FEBF94D8814 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A2400FF6711C031FAA8D874 /* Pods_MovementDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DE5622F1A7FBB5BB9E50541 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0CCBE15E1881D3E8633EC81 /* Pods-MovementDemo.debug.xcconfig */,
+				65B2A53F594391BCA84F0515 /* Pods-MovementDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B72B08C7216AE534001ED9F1 /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B72B08C8216AE534001ED9F1 /* YYWeakProxy.m */,
+				B72B08C9216AE534001ED9F1 /* YYFPSLabel.h */,
+				B72B08CA216AE534001ED9F1 /* YYFPSLabel.m */,
+				B72B08CB216AE534001ED9F1 /* YYWeakProxy.h */,
+			);
+			path = YYFPSLabel;
+			sourceTree = "<group>";
+		};
 		B78240EA2169A2050061685A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				B782410A2169A2080061685A /* MovementDemoTests */,
 				B78241152169A2080061685A /* MovementDemoUITests */,
 				B78240F42169A2050061685A /* Products */,
+				9DE5622F1A7FBB5BB9E50541 /* Pods */,
+				90FAB09092F30FEBF94D8814 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +141,15 @@
 		B78240F52169A2050061685A /* MovementDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B72B08C7216AE534001ED9F1 /* YYFPSLabel */,
 				B78240F62169A2050061685A /* AppDelegate.swift */,
 				B78240F82169A2050061685A /* ViewController.swift */,
 				B78240FA2169A2050061685A /* Main.storyboard */,
 				B78240FD2169A2080061685A /* Assets.xcassets */,
 				B78240FF2169A2080061685A /* LaunchScreen.storyboard */,
 				B78241022169A2080061685A /* Info.plist */,
+				B78241242169A65E0061685A /* DemoLayout.swift */,
+				B72B08D1216AE59E001ED9F1 /* MovementDemo-Bridging-Header..h */,
 			);
 			path = MovementDemo;
 			sourceTree = "<group>";
@@ -132,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B782411B2169A2080061685A /* Build configuration list for PBXNativeTarget "MovementDemo" */;
 			buildPhases = (
+				2C36BCCF4BBCE79F1443181A /* [CP] Check Pods Manifest.lock */,
 				B78240EF2169A2050061685A /* Sources */,
 				B78240F02169A2050061685A /* Frameworks */,
 				B78240F12169A2050061685A /* Resources */,
+				14E26EA20411686FD027871A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,12 +300,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14E26EA20411686FD027871A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MovementDemo/Pods-MovementDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DXFPSLabel/DXFPSLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DXFPSLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovementDemo/Pods-MovementDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C36BCCF4BBCE79F1443181A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovementDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B78240EF2169A2050061685A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72B08CC216AE534001ED9F1 /* YYWeakProxy.m in Sources */,
+				B72B08CD216AE534001ED9F1 /* YYFPSLabel.m in Sources */,
 				B78240F92169A2050061685A /* ViewController.swift in Sources */,
+				B78241252169A65E0061685A /* DemoLayout.swift in Sources */,
 				B78240F72169A2050061685A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,17 +531,20 @@
 		};
 		B782411C2169A2080061685A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0CCBE15E1881D3E8633EC81 /* Pods-MovementDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KGEM2UL2X;
 				INFOPLIST_FILE = MovementDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rocks.zhouxiaofei.MovementDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mr.zhou/Desktop/MovementDemo/MovementDemo/MovementDemo-Bridging-Header..h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,17 +552,20 @@
 		};
 		B782411D2169A2080061685A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B2A53F594391BCA84F0515 /* Pods-MovementDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KGEM2UL2X;
 				INFOPLIST_FILE = MovementDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rocks.zhouxiaofei.MovementDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mr.zhou/Desktop/MovementDemo/MovementDemo/MovementDemo-Bridging-Header..h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

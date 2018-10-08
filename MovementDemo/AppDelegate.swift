@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DXFPSLabel
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
+        let vc = ViewController()
+        self.window?.rootViewController = vc
+        
+        DXFPSLabel.show(in: self.window)
+        
+        self.window?.makeKeyAndVisible()
+    
         return true
     }
 
